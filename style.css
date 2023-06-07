@@ -1,0 +1,53 @@
+body {
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #181425;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .rounded-image {
+    width: 200px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 200px; /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 50%;
+    object-fit: cover;
+  }
+      .logo {
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      text-align: center;
+    }
+    .custom-btn {
+        background-color: #FF6238;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        margin: 5px;
+        font-weight: bold;
+        border-radius: 50px; /* Adiciona borda arredondada */
+        transition: background-color 0.3s;
+        font-family: 'Montserrat', sans-serif; /* Utiliza a mesma fonte da h1 */
+        display: inline-block; /* Adiciona display inline-block para alinhar em pares */
+        width: 250px;
+      }
+      
+      .custom-btn:hover {
+        background-color: #FF3D0E;
+        color: #ffffff;
+      }
+      .button-container {
+        text-align: center;
+      }
+      
+      @media (min-width: 768px) {
+        .button-container {
+          display: flex;
+          justify-content: center;
+        }
+    }
